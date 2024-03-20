@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
+import { MeteoComponent } from './meteo/meteo.component';
+imports: [
+  MeteoComponent,
+]
 @Component({
   selector: 'app-root',
   standalone: true,
